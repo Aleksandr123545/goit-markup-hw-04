@@ -476,6 +476,11 @@ img {
 }
 .container-footer {
   display: flex;
+  align-items: baseline;
+}
+
+.footer-div-logo {
+  margin-right: 120px;
 }
 
 .footer-logo-web {
@@ -510,37 +515,41 @@ img {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 
 .footer-div-teame-icon {
-  display: inline-flex;
-  margin-left: 120px;
+  display: flex;
   flex-direction: column;
-
+  max-width: 208px;
   justify-content: ;
 }
 
 .footer-teame-icon-list {
-  display: inline-flex;
-  align-items: start;
+  display: flex;
+  align-items: center;
   gap: 16px;
-  /* gap: 16px; */
+
   /* width: 208px; */
 }
 
 .footer-teame-icon {
+  align-items: center;
+  justify-content: center;
   width: 40px;
   height: 40px;
   border-radius: 50%;
   background-color: #4d5ae5;
   list-style-type: none;
 }
-.footer-teame-icon:hover {
-  background: #31d0aa;
+
+.footer-teame-icon:hover,
+.footer-teame-icon:focus {
+  background-color: #31d0aa;
 }
 
 .footer-svg-teame-icon {
+  fill: #f4f4fd;
   margin: 8px 8px;
 }
 

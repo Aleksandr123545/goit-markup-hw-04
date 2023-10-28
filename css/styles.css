@@ -2,6 +2,7 @@ body {
   font-family: Roboto, sans-serif;
   color: #434455;
   background-color: #ffffff;
+  max-width: 1440px;
 }
 
 h2 {
@@ -181,12 +182,13 @@ img {
     url("../images/hero_image.jpg");
 
   background-size: cover;
-}
-.container-heroy {
-  align-items: center;
+
   max-width: 1440px;
   background-repeat: no-repeat;
   background-position: center;
+}
+.container-heroy {
+  align-items: center;
 }
 
 .heroy-section-title {

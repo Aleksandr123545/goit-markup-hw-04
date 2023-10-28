@@ -411,9 +411,10 @@ img {
   border: 1px solid #e7e9fc;
   background: #fff;
   overflow: hidden;
+  box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.our-portfolio-images:hover .project-card {
+.our-portfolio-images:hover .project-card-text {
   transform: translateY(0%);
 }
 
@@ -427,12 +428,12 @@ img {
 .project-card {
   width: 360px;
   height: 300px;
-  background: #4d5ae5;
+  /* background: #4d5ae5; */
   position: absolute;
   top: 0;
   left: 0;
-  transform: translateY(150%);
-  transition: transform 250ms linear;
+  /* transform: translateY(150%);
+  transition: transform 250ms linear; */
 }
 
 .project-card-text {
@@ -442,7 +443,13 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
 
-  padding: 40px 32px 164px;
+  padding: 40px 32px;
+   
+  background-color: #4d5ae5;
+   height: 100%;
+   width: 100%;
+   transform: translateY(150%);
+  transition: transform 250ms linear;
 }
 
 .our-portfolio-description {

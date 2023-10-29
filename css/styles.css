@@ -272,8 +272,7 @@ img {
 .logo-icon {
   /* flex-shrink: 0; */
   display: flex;
-  width: 64px;
-  height: 64px;
+ 
   /* margin: 24px 100px; */
 }
 

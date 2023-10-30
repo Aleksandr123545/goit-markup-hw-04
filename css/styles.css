@@ -394,7 +394,8 @@ img {
   
 }
 .teame-icon-link:hover,
-.teame-icon-link:focus {
+.teame-icon-link:focus,
+.teame-icon-link:active {
   background: #404bbf;
 }
 

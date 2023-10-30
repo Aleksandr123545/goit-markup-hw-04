@@ -142,12 +142,7 @@ img {
   color: #404bbf;
 }
 
-/* .header-list-link:nth-child(1) {
-  
-   color: #404bbf;
-  position: relative;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-} */
+
 
 .current {
   position: relative;
@@ -229,7 +224,7 @@ img {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 48px;
-  /* text-transform: capitalize; */
+  
 }
 
 .heroy-section-button {
@@ -297,10 +292,10 @@ img {
 }
 
 .logo-icon {
-  /* flex-shrink: 0; */
+  
   display: flex;
  
-  /* margin: 24px 100px; */
+  
 }
 
 .link {
@@ -373,9 +368,7 @@ img {
   text-align: center;
 }
 
-/* .div-teame-icon {
-  display: flex;
-} */
+
 
 .teame-icon-list {
   display: flex;
@@ -454,12 +447,10 @@ img {
 .project-card {
   width: 360px;
   height: 300px;
-  /* background: #4d5ae5; */
   position: absolute;
   top: 0;
   left: 0;
-  /* transform: translateY(150%);
-  transition: transform 250ms linear; */
+
 }
 
 .project-card-text {
@@ -560,10 +551,8 @@ img {
 
 .footer-teame-icon-list {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   gap: 16px;
-
-  /* width: 208px; */
 }
 
 .footer-teame-icon {
@@ -594,5 +583,3 @@ img {
   
 }
 
-/* grid-column-gap: 24px;
-  grid-row-gap: 48px; */
